@@ -33,7 +33,7 @@
         created(){
             this.$http.get('http://jsonplaceholder.typicode.com/posts').then(function(data){
                 console.log(data);
-                this.blogs = data.body.slice(0,7);
+                this.blogs = data.body.slice(0,10);
             })
 
             }
